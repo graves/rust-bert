@@ -85,7 +85,7 @@ thiserror = "2"
 half = "2"
 regex = "1.11"
 
-cached-path = { git = "https://github.com/graves/inidicatif", version = "0.8", default-features = false, optional = true }
+cached-path = { git = "https://github.com/graves/rust-cached-path", version = "0.8", default-features = false, optional = true }
 dirs = { version = "6", optional = true }
 lazy_static = { version = "1", optional = true }
 ort = { version = "1.16.3", optional = true, default-features = false, features = [
